@@ -1,0 +1,17 @@
+USE HW1;
+CREATE TABLE pitches(
+
+	Pitch_Id MEDIUMINT NOT NULL PRIMARY KEY,
+	Game INT NOT NULL,
+	EventId SMALLINT NOT NULL,
+	Num TINYINT NOT NULL,
+	Inning CHAR(3),
+	Pitcher VARCHAR(35),
+	Pitch VARCHAR(50),
+	_Type VARCHAR(20),
+	MPH SMALLINT,
+	
+	FOREIGN KEY (Game) REFERENCES games(game)
+	
+
+);

@@ -1,0 +1,1 @@
+我創建了一個table relief_pitcher_stats，計算每一位中繼投手的總局數, ERA, WHIP, K/9。對於ERA和WHIP，越低越好，對於K/9，越高越好。然後給他們弄一個綜合排名，最後答案是41493 | M. Kaelin
